@@ -1,4 +1,3 @@
-
 public class TurkceRevison1 {
     /* 1. Class create apex class ile açılır. new file değil..
        2. Classı düzenle
@@ -32,7 +31,6 @@ public class TurkceRevison1 {
         String s = 'hello maximillian';
         String s2 = s.capitalize();
         System.debug(s2);
-    
 
         String myString1 = 'abcde';
         String myString2 = 'abcd';

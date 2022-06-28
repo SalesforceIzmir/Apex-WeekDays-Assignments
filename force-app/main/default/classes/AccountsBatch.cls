@@ -22,7 +22,7 @@ public class AccountsBatch  implements Database.Batchable<SObject>, database.sta
         }
     }
     public void finish(Database.BatchableContext bc){
-        //print how many record were updated in the entire batch description field for Account records are updated execution.
+        //print how many record were updated in the entire batch description execution.
         system.debug('done with updating ALL the ACCOUNTS');
         system.debug('# of records updated: ' + count);
     }

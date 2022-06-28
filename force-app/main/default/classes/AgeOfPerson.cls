@@ -20,8 +20,8 @@ public class AgeOfPerson {
         date today = date.today();
 
         integer remainingDays = today.daysBetween(endDate);
-        system.debug('It will be expire in ' + remainingDays + ' days.');
-
+        system.debug('It will be expire in ' + remainingDays + 'days.');
+        
 
     }
 }

@@ -22,5 +22,3 @@ public with sharing class AccountQueueableExampleTest {
        system.assertEquals(100, count);
    }
 }
-
-

@@ -1,5 +1,4 @@
-
- trigger Opportunity on Opportunity (before insert, before update, after insert, after update) {
+trigger Opportunity on Opportunity (before insert, before update, after insert, after update) {
  if(trigger.isBefore && trigger.isUpdate){
     OpportunityTriggerHandler.OpportunityCloseDate(Trigger.New, 
                                                    Trigger.Old, 

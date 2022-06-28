@@ -21,10 +21,7 @@ public class LeadTriggerHandlerTest {
 
         insert listLead;
 
-        test.startTest();
         LeadTriggerHandler.updateDefaultLeadDetails(listLead);
-        //return yapilmayan durumlarda system.assertEquals required degil!
-        test.stopTest();
 
 
     }

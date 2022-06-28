@@ -45,5 +45,4 @@ public class SoqlDemo {
         list<account> listAcc = [select id, name from account where name = :accNameFilter];
         system.debug(listAcc);
     }
-    
 }

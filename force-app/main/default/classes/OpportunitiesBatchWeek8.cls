@@ -1,6 +1,3 @@
-//WEEK 8-SUNDAY Practice
-//1. Write a Batch class to delete all the opportunities which were updated as closed Lost.
-
 public class OpportunitiesBatchWeek8 implements database.Batchable <SObject> {
     public integer count = 0;
     public database.QueryLocator start (database.BatchableContext opt){

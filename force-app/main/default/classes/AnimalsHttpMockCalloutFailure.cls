@@ -7,4 +7,3 @@ public with sharing class AnimalsHttpMockCalloutFailure implements HttpCalloutMo
         return response;
     }
 }
- 

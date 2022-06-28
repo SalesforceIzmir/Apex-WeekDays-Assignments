@@ -14,6 +14,7 @@ Output: $2,500*/
 public class CryptoInfo {
 
     public static Map<String,double> CryptoMap = new Map<String, double>();
+    public static string coinName= '';
     public static double showPrice(string coinName){
         double price = 0;
 
@@ -21,11 +22,11 @@ public class CryptoInfo {
             price=CryptoMap.get(coinName);
             
         } else {
+            price=0;
            coinName= 'The value does not exist '; 
            
         }
         //system.debug(price);
         return price;
-        
     }
 }

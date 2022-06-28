@@ -1,4 +1,3 @@
-
 public class TurkishLesson6 {
     public static void mapMetot() {
         //Farklı 5 şehrin son 7 gündeki sıcaklık durumlarını şehir ismi key sıcaklık değerleri decimal bir liste olan bir map yazalım..

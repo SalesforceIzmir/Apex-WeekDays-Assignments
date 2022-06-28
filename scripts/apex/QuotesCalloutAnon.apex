@@ -1,0 +1,1 @@
+QuotesCallout.makeGetCallout();

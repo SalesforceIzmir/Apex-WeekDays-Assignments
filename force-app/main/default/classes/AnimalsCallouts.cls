@@ -80,8 +80,8 @@ public with sharing class AnimalsCallouts {
     public static void fetchAnimals() {
         //1. prepare request
         HttpRequest request = new HttpRequest();
-        request.setEndpoint(GET_ANIMALS_ENDPOINTS);
-        request.setMethod(HTTP_GET);
+        request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');
+        request.setMethod('GET');
 
         //2. prepare http
         Http http = new http();
@@ -118,7 +118,6 @@ public with sharing class AnimalsCallouts {
         HttpRequest request = new HttpRequest();
         request.setEndpoint(POST_ANIMALS_ENDPOINT);
         request.setMethod(HTTP_POST);
-
 
         //2. prepare http
         Http http = new http();

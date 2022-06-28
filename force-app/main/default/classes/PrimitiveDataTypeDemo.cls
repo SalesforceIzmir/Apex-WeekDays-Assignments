@@ -15,11 +15,11 @@ system.debug('total # of candidates: ' + totalCandidates);
 system.debug('admin completed?' + isAdminComleted);
 //creating a decimal value
 decimal decValue = 27.01;
-system.debug('decimal: ' + decValue); //Decimal
+system.debug('decimal: ' + decValue);
 
 //creating Long value  It has L at the end of the number
 Long longValue = 74393439230293L;
-system.debug('long: ' + longValue); //Long
+system.debug('long: ' + longValue);
 //creating variables with object data type
 
 Object obj = 'This is a string';
@@ -29,7 +29,7 @@ system.debug('object 2: ' + obj2);
 
 //ID perresents salesforce ID.
 ID id1 = '00D5f000009krSr'; 
-system.debug('id ' + id1); //ID
+system.debug('id ' + id1);
 
 
 

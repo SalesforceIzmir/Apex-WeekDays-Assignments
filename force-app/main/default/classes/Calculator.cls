@@ -1,4 +1,3 @@
-
 public class Calculator {
     public static void welcomeMessage(){
         system.debug('welcome to apex calC');

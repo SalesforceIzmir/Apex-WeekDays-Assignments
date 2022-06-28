@@ -17,8 +17,7 @@ public class ContactTriggerHandler {
          for(contact eachContact: cntTriggerNew){
                  contact oldContact = cntTriggerOldMap.get(eachContact.id);
                  if(oldContact.LeadSource != eachContact.LeadSource){
-                     string customValidation = system.label.contactValidation2;//Burda error aliyorum hocaya sor!!!!!
-                     eachContact.LeadSource.addError(costumValidation);
+                     eachContact.LeadSource.addError('CANNOT UPDATE LEAD SOURCE. Please user!');
                  }
              }
      }
@@ -74,4 +73,3 @@ public class ContactTriggerHandler {
 //     }
 //  }
 // }
- 

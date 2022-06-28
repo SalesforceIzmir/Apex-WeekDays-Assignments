@@ -1,5 +1,4 @@
-
-    public class ListDemo {
+public class ListDemo {
         public static string candidatesList(integer indx) {
             list<string> listCandidates = new list<string>();
             listCandidates.add('Marc');//0
@@ -59,6 +58,3 @@
     //     system.debug('list of random integers ' + listInteger);
     //     system.debug('value at index 3 is ' + index3value2);
     // }
-
-
-

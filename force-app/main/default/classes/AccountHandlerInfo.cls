@@ -20,7 +20,7 @@ public class AccountHandlerInfo {
                 acc.Name = eachAccNm;
                 newAccList.add(acc);
             }
-            //GITHUB PRACTICING
+            
         } else {
             newAccList = null;
             system.debug('Error, please provide a string list');

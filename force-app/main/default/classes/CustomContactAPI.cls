@@ -80,4 +80,15 @@ global class CustomContactAPI {
         update c;
         return 'Contact update with id: ' + contactId;
     }
+    @httpPut 
+     global static List<id> upsertContact(List<Contact> cons){ 
+        upsert cons;
+         List<id> ids = new List<id>();
+         for(contact con : cons) {
+            ids.add(con.id);
+         }
+         return ids;
+    
+        
+    }
 }

@@ -6,6 +6,7 @@ public class CalculatorTest {
         Calculator.welcomeMessage();
         Calculator.printNewMessage('Message m test class');
         Calculator.printNewMessage2('msg', date.today());
+
     }
     @isTest 
     private static void addTest(){
@@ -13,6 +14,7 @@ public class CalculatorTest {
         integer j = 15;
         integer callAdd = Calculator.add(i,j);
         System.assertEquals(25, callAdd);
+
     }
     @isTest
     private static void addTest2(){
