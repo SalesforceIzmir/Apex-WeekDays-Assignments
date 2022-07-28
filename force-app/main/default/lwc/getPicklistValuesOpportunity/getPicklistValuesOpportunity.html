@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="GET PICKLIST VALUES - STAGE NAME">
+        <div class="slds-var-m-around_medium">
+            <lightning-combobox
+            label="select the stage"
+            options={stageOptions}
+            value={selectedStage}
+            onchange={changeHandler}>
+        </lightning-combobox>
+        <div>
+            selected stage is: {selectedStage}
+        </div>
+        </div>
+    </lightning-card>
+</template>
+
